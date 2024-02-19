@@ -13,4 +13,5 @@ class User < ApplicationRecord
               with: /\A[^@\s]+@[^@\s]+\z/,
               message: "must be a valid email address"
             }
+  validates :password, presence: true
 end
