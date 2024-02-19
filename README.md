@@ -1,25 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+I built this web application as a learning project for the [Ruby on Rails](https://rubyonrails.org/) framework.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# Scheduled_Tweets
+- Ruby version: 3.3.0
+- Rails version: 7.1.3
+- Features: Sign Up, Sign In, Log Out, Reset password, Routing.
+- Used [gitmoji](https://gitmoji.dev/) for commit messages just for fun.
+- Learning Reference: [Gorails](https://www.youtube.com/watch?v=wkNR1hG4yOk&list=PLm8ctt9NhMNV75T9WYIrA6m9I_uw7vS56)
