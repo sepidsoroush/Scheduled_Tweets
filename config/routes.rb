@@ -19,5 +19,8 @@ Rails.application.routes.draw do
 
   get "/auth/twitter/callback", to: "omniauth_callbacks#twitter"
 
+  resources :twitter_accounts
+  # declare all of the necessary routes for index, show, new, edit, create, update, and destroy actions.
+
   root to: "main#index"
 end
