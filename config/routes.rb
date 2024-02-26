@@ -21,6 +21,7 @@ Rails.application.routes.draw do
 
   resources :twitter_accounts
   # declare all of the necessary routes for index, show, new, edit, create, update, and destroy actions.
+  resources :tweets
 
   root to: "main#index"
 end
