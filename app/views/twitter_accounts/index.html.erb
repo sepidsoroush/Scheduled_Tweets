@@ -9,6 +9,6 @@
       <%= image_tag twitter_account.image, class: "rounded-circle"%>
       <%= link_to "@#{twitter_account.username}", "https://twitter.com/#{twitter_account.username}", target: :_blank %>
     </div>
-    <%= button_to "Disconnect", twitter_account, method: :delete, data: {turbo: "false" , confirm: "Are you sure?"} %>
+    <%= link_to "Disconnect", twitter_account, data: {turbo_confirm: 'Are you sure?', "turbo-method": :delete}, class:"btn btn-outline-danger" %>
   </div>
 <% end %>
